@@ -11,32 +11,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-class Pessoa implements Serializable {
-    private String nome;
-    private int idade;
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-    public Pessoa(String nome, int idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
-}
-
+// Por favor execute o código main desta classe
 public class PessoaSendReceive {
     private static Janela2 janela;
     public static AtomicBoolean done = new AtomicBoolean();
@@ -87,3 +62,29 @@ public class PessoaSendReceive {
     }
 }
 
+
+class Pessoa implements Serializable {
+    private String nome;
+    private int idade;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
